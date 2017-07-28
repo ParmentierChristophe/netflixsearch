@@ -7,7 +7,7 @@
         <input class="input is-large is-danger" type="text" v-model="textToSearch" placeholder="Search...(exemples: Sharknado, Breaking bad, fairy tail,...)">
       </p>
       <p class="control">
-        <button type="submit" class="button is-large is-danger">
+        <button type="submit" class="button is-large is-danger red">
       Search
     </button>
       </p>
@@ -37,7 +37,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.red {
+  background-color: red;
 
+}
 
 input[type="text"], textarea {
 
