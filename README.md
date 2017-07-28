@@ -1,4 +1,5 @@
 # Netflix search
+![capture](https://user-images.githubusercontent.com/13301795/28726655-5647fdb8-73c2-11e7-9382-30acc07db2e2.jpg)
 
 Vue.js application that uses the netflixroulette API
 
