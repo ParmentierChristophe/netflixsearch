@@ -1,6 +1,9 @@
-# appwithapi
+# Netflix search
 
-> A Vue.js project
+Vue.js application that uses the netflixroulette API
+
+### Version
+1.0.0
 
 ## Build Setup
 
