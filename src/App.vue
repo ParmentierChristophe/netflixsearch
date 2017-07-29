@@ -10,7 +10,7 @@
         <p>
           by <a target="_blank" href="http://christophe-parmentier.fr">Crispy</a>.
         <p>
-          <a class="icon" target="_blank" href="https://github.com/ParmentierChristophe">
+          <a class="icon" target="_blank" href="https://github.com/ParmentierChristophe/netflixsearch">
             <i class="fa fa-github"></i>
           </a>
         </p>
