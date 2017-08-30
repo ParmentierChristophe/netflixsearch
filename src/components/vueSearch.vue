@@ -42,7 +42,10 @@ export default {
 h2 {
   font-weight: bolder;
 }
+.red {
+  background-color: blue;
 
+}
 .columns {
   padding: 30px 0 30px 0;
 }

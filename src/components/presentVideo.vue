@@ -20,12 +20,12 @@
 export default {
   name: 'presentVideo',
   data() {
-    return{
-      textToSearch:''
+    return {
+      textToSearch: ''
     }
   },
   methods: {
-    formSubmit(event){
+    formSubmit(event) {
       this.$emit('formSubmit', this.textToSearch);
       event.preventDefault();
     }
@@ -39,13 +39,8 @@ export default {
 <style scoped>
 .red {
   background-color: red;
-
 }
 
-input[type="text"], textarea {
-
-
-}
-
-
+input[type="text"],
+textarea {}
 </style>

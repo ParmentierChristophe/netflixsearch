@@ -1,19 +1,22 @@
 <template>
 <div id="app">
+
   <img class="logo" src="./assets/Netflixlogo.svg" alt="">
   <h1 class="title">Search on Netflix</h1>
+
   <presentVideo v-on:formSubmit="searchNetflix"></presentVideo>
   <vueSearch :tests='tests'></vueSearch>
+
   <footer class="footer back">
     <div class="container">
       <div class="content has-text-centered">
         <p>
           by <a target="_blank" href="http://christophe-parmentier.fr">Crispy</a>.
-        <p>
-          <a class="icon" target="_blank" href="https://github.com/ParmentierChristophe/netflixsearch">
+          <p>
+            <a class="icon" target="_blank" href="https://github.com/ParmentierChristophe">
             <i class="fa fa-github"></i>
           </a>
-        </p>
+          </p>
       </div>
     </div>
   </footer>
@@ -41,8 +44,9 @@ export default {
     searchNetflix: function(text) {
 
       this.$http.get("https://netflixroulette.net/api/api.php?title=" + text).then((response) => {
-        console.log(response.body);
         this.tests = response.body;
+        console.log(response.body);
+
 
 
 
@@ -85,7 +89,6 @@ body {
 
 .back {
   background-color: #1D1D1D;
-
 }
 
 .back a {
